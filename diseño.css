@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FEF5E7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-image: url('a.png'); /* Ruta de la imagen */
+    background-size: cover; /* La imagen se ajustará al tamaño del elemento */
+    background-position: center; /* La imagen se posicionará en el centro del elemento */
+    color: #f8f8f8;
+    text-align: center;
+    padding: 85px 0; /* Ajusta el espacio alrededor del texto según sea necesario */
+   
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em; /* Tamaño del texto */
+   
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+  
+}
+.gallery .imagen {
+    position: relative;
+}
+
+.gallery img {
+    max-width: 300px;
+    margin: 10px;
+ 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.imagen-bienvenida {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.gallery .descripcion {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Añade estos estilos a tu archivo de estilo */
+.item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.title {
+    background-color: #f9f9f9;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.content {
+    padding: 10px;
+    display: none;
+}
+
+
+
+

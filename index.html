@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residuos industriales</title>
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+    
+    <header>
+        
+        <div class="container">
+            <h1>Residuos Industriales en Puerto San José</h1>
+            <nav>
+                <ul>
+                    <li><a href="#causas">Causas</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#soluciones">Soluciones</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="bienvenida">
+        <div class="container">
+            <h2>Residuos Industriales en Puerto San José: Impacto y Soluciones</h2>
+            <p>"Explora el complejo mundo de los residuos industriales en Puerto San José. Descubre cómo su gestión adecuada es esencial para preservar el medio ambiente y garantizar la salud pública. Conoce las implicaciones, desafíos y las soluciones innovadoras que implementamos para un futuro más sostenible."</p>
+    <img src="e.jpeg" alt="Descripción de la imagen" class="imagen-bienvenida">
+        </div>
+    </section>
+
+    <section id="Causas">
+        <div class="container">
+            <h2>Causas y efecto</h2>
+            <p>Causa:
+                La industrialización y el crecimiento económico en Puerto San José han llevado a un aumento significativo en la producción de residuos industriales. Estos residuos provienen de procesos de manufactura, construcción y otras actividades industriales, generando un desafío ambiental y de salud pública.</p>
+                
+                <p> Efecto:
+                La incorrecta gestión de estos residuos puede tener consecuencias graves para el entorno natural y la salud de la comunidad. Contaminación del agua y suelo, emisiones nocivas y riesgos para la biodiversidad son algunos de los efectos negativos. Un adecuado sistema de gestión es esencial para mitigar estos impactos y promover un desarrollo sostenible en la región.</p>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <div class="container">
+            <h2>Galería</h2>
+            <div class="gallery">
+                <div class="imagen">
+                    <img src="basura.jpg" alt="Imagen 1">
+                    <div class="descripcion">Las basuras marinas son artículos que han sido deliberadamente desechados, perdidos sin querer, o transportados por los vientos y los ríos, al mar y a las playas.</div>
+                </div>
+                <div class="imagen">
+                    <img src="g.webp" alt="Imagen 2">
+                    <div class="descripcion"> Incluyen principalmente plásticos, madera, metales, vidrio, caucho, ropa y papel. </div>
+                </div>
+                <div class="imagen">
+                    <img src="basura3.png" alt="Imagen 3">
+                    <div class="descripcion"> Las fuentes terrestres representan hasta el 80% de los desechos marinos, entre los que se incluyen el turismo, las aguas residuales y los vertederos ilegales o mal gestionados.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="soluciones">
+        <div class="container">
+            <h2>Soluciones para la Gestión de Residuos Industriales</h2>
+            <div class="accordion">
+                <div class="item">
+                    <div class="title">Reciclaje y Reutilización</div>
+                    <div class="content">
+                        <p>Implementar programas de reciclaje para separar y procesar materiales reciclables.</p>
+                    </div>
+                </div>
+                <!-- Repite este bloque para cada solución -->
+                <div class="item">
+                    <div class="title">Tratamiento y Disposición Segura</div>
+                    <div class="content">
+                        <p>Establecer instalaciones adecuadas para el tratamiento y disposición final de residuos peligrosos y no peligrosos. </p>
+                    </div>
+                </div>
+            
+                <div class="item">
+                    <div class="title">Concientización</div>
+                    <div class="content">
+                        <p> Fomentar la reutilización de productos cuando sea posible.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="title">Tecnología Avanzada</div>
+                <div class="content">
+                    <p>Implementar tecnologías modernas para el tratamiento y gestión de residuos, como la incineración controlada o la biotecnología.</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <div class="title">Auditorías Ambientales</div>
+                <div class="content">
+                    <p>Realizar auditorías periódicas para evaluar y mejorar los procesos de gestión de residuos, identificando áreas de mejora.</p>
+                </div>
+            </div>
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Residuos Industriales en Puerto San José</p>
+            <p>Fuentes:https://fundacionglobalnature.org/portfolio/basuras-marinas/</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const items = document.querySelectorAll('.item');
+        
+        items.forEach(item => {
+            const title = item.querySelector('.title');
+            const content = item.querySelector('.content');
+            
+            title.addEventListener('click', () => {
+                content.style.display = content.style.display === 'none' ? 'block' : 'none';
+            });
+        });
+    });
+    </script>
